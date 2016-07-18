@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0CE0D971D387254004BE6DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE0D961D387254004BE6DB /* main.m */; };
+		B0CE0D9A1D387254004BE6DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE0D991D387254004BE6DB /* AppDelegate.m */; };
+		B0CE0D9D1D387254004BE6DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE0D9C1D387254004BE6DB /* ViewController.m */; };
+		B0CE0DA01D387254004BE6DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CE0D9E1D387254004BE6DB /* Main.storyboard */; };
+		B0CE0DA21D387254004BE6DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0CE0DA11D387254004BE6DB /* Assets.xcassets */; };
+		B0CE0DA51D387254004BE6DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CE0DA31D387254004BE6DB /* LaunchScreen.storyboard */; };
+		B0CE0DB01D387254004BE6DB /* IDAddressPickViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE0DAF1D387254004BE6DB /* IDAddressPickViewTests.m */; };
+		B0CE0DBB1D387254004BE6DB /* IDAddressPickViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE0DBA1D387254004BE6DB /* IDAddressPickViewUITests.m */; };
+		B0CE0DCA1D387277004BE6DB /* IDAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE0DC91D387277004BE6DB /* IDAddressPickerView.m */; };
+		B0CE0DCC1D3872DF004BE6DB /* address.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0CE0DCB1D3872DF004BE6DB /* address.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0CE0DAC1D387254004BE6DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0CE0D8A1D387254004BE6DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0CE0D911D387254004BE6DB;
+			remoteInfo = IDAddressPickView;
+		};
+		B0CE0DB71D387254004BE6DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0CE0D8A1D387254004BE6DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0CE0D911D387254004BE6DB;
+			remoteInfo = IDAddressPickView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0CE0D921D387254004BE6DB /* IDAddressPickView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDAddressPickView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CE0D961D387254004BE6DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0CE0D981D387254004BE6DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0CE0D991D387254004BE6DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0CE0D9B1D387254004BE6DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B0CE0D9C1D387254004BE6DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0CE0D9F1D387254004BE6DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0CE0DA11D387254004BE6DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0CE0DA41D387254004BE6DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0CE0DA61D387254004BE6DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0CE0DAB1D387254004BE6DB /* IDAddressPickViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDAddressPickViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CE0DAF1D387254004BE6DB /* IDAddressPickViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDAddressPickViewTests.m; sourceTree = "<group>"; };
+		B0CE0DB11D387254004BE6DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0CE0DB61D387254004BE6DB /* IDAddressPickViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDAddressPickViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CE0DBA1D387254004BE6DB /* IDAddressPickViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDAddressPickViewUITests.m; sourceTree = "<group>"; };
+		B0CE0DBC1D387254004BE6DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0CE0DC81D387277004BE6DB /* IDAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDAddressPickerView.h; sourceTree = "<group>"; };
+		B0CE0DC91D387277004BE6DB /* IDAddressPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDAddressPickerView.m; sourceTree = "<group>"; };
+		B0CE0DCB1D3872DF004BE6DB /* address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = address.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0CE0D8F1D387254004BE6DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CE0DA81D387254004BE6DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CE0DB31D387254004BE6DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0CE0D891D387254004BE6DB = {
+			isa = PBXGroup;
+			children = (
+				B0CE0D941D387254004BE6DB /* IDAddressPickView */,
+				B0CE0DAE1D387254004BE6DB /* IDAddressPickViewTests */,
+				B0CE0DB91D387254004BE6DB /* IDAddressPickViewUITests */,
+				B0CE0D931D387254004BE6DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0CE0D931D387254004BE6DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE0D921D387254004BE6DB /* IDAddressPickView.app */,
+				B0CE0DAB1D387254004BE6DB /* IDAddressPickViewTests.xctest */,
+				B0CE0DB61D387254004BE6DB /* IDAddressPickViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0CE0D941D387254004BE6DB /* IDAddressPickView */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE0DCB1D3872DF004BE6DB /* address.plist */,
+				B0CE0D981D387254004BE6DB /* AppDelegate.h */,
+				B0CE0D991D387254004BE6DB /* AppDelegate.m */,
+				B0CE0DC81D387277004BE6DB /* IDAddressPickerView.h */,
+				B0CE0DC91D387277004BE6DB /* IDAddressPickerView.m */,
+				B0CE0D9B1D387254004BE6DB /* ViewController.h */,
+				B0CE0D9C1D387254004BE6DB /* ViewController.m */,
+				B0CE0D9E1D387254004BE6DB /* Main.storyboard */,
+				B0CE0DA11D387254004BE6DB /* Assets.xcassets */,
+				B0CE0DA31D387254004BE6DB /* LaunchScreen.storyboard */,
+				B0CE0DA61D387254004BE6DB /* Info.plist */,
+				B0CE0D951D387254004BE6DB /* Supporting Files */,
+			);
+			path = IDAddressPickView;
+			sourceTree = "<group>";
+		};
+		B0CE0D951D387254004BE6DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE0D961D387254004BE6DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0CE0DAE1D387254004BE6DB /* IDAddressPickViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE0DAF1D387254004BE6DB /* IDAddressPickViewTests.m */,
+				B0CE0DB11D387254004BE6DB /* Info.plist */,
+			);
+			path = IDAddressPickViewTests;
+			sourceTree = "<group>";
+		};
+		B0CE0DB91D387254004BE6DB /* IDAddressPickViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE0DBA1D387254004BE6DB /* IDAddressPickViewUITests.m */,
+				B0CE0DBC1D387254004BE6DB /* Info.plist */,
+			);
+			path = IDAddressPickViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0CE0D911D387254004BE6DB /* IDAddressPickView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0CE0DBF1D387254004BE6DB /* Build configuration list for PBXNativeTarget "IDAddressPickView" */;
+			buildPhases = (
+				B0CE0D8E1D387254004BE6DB /* Sources */,
+				B0CE0D8F1D387254004BE6DB /* Frameworks */,
+				B0CE0D901D387254004BE6DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IDAddressPickView;
+			productName = IDAddressPickView;
+			productReference = B0CE0D921D387254004BE6DB /* IDAddressPickView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0CE0DAA1D387254004BE6DB /* IDAddressPickViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0CE0DC21D387254004BE6DB /* Build configuration list for PBXNativeTarget "IDAddressPickViewTests" */;
+			buildPhases = (
+				B0CE0DA71D387254004BE6DB /* Sources */,
+				B0CE0DA81D387254004BE6DB /* Frameworks */,
+				B0CE0DA91D387254004BE6DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0CE0DAD1D387254004BE6DB /* PBXTargetDependency */,
+			);
+			name = IDAddressPickViewTests;
+			productName = IDAddressPickViewTests;
+			productReference = B0CE0DAB1D387254004BE6DB /* IDAddressPickViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0CE0DB51D387254004BE6DB /* IDAddressPickViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0CE0DC51D387254004BE6DB /* Build configuration list for PBXNativeTarget "IDAddressPickViewUITests" */;
+			buildPhases = (
+				B0CE0DB21D387254004BE6DB /* Sources */,
+				B0CE0DB31D387254004BE6DB /* Frameworks */,
+				B0CE0DB41D387254004BE6DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0CE0DB81D387254004BE6DB /* PBXTargetDependency */,
+			);
+			name = IDAddressPickViewUITests;
+			productName = IDAddressPickViewUITests;
+			productReference = B0CE0DB61D387254004BE6DB /* IDAddressPickViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0CE0D8A1D387254004BE6DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Island;
+				TargetAttributes = {
+					B0CE0D911D387254004BE6DB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B0CE0DAA1D387254004BE6DB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B0CE0D911D387254004BE6DB;
+					};
+					B0CE0DB51D387254004BE6DB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B0CE0D911D387254004BE6DB;
+					};
+				};
+			};
+			buildConfigurationList = B0CE0D8D1D387254004BE6DB /* Build configuration list for PBXProject "IDAddressPickView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0CE0D891D387254004BE6DB;
+			productRefGroup = B0CE0D931D387254004BE6DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0CE0D911D387254004BE6DB /* IDAddressPickView */,
+				B0CE0DAA1D387254004BE6DB /* IDAddressPickViewTests */,
+				B0CE0DB51D387254004BE6DB /* IDAddressPickViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0CE0D901D387254004BE6DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CE0DA51D387254004BE6DB /* LaunchScreen.storyboard in Resources */,
+				B0CE0DCC1D3872DF004BE6DB /* address.plist in Resources */,
+				B0CE0DA21D387254004BE6DB /* Assets.xcassets in Resources */,
+				B0CE0DA01D387254004BE6DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CE0DA91D387254004BE6DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CE0DB41D387254004BE6DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0CE0D8E1D387254004BE6DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CE0D9D1D387254004BE6DB /* ViewController.m in Sources */,
+				B0CE0D9A1D387254004BE6DB /* AppDelegate.m in Sources */,
+				B0CE0D971D387254004BE6DB /* main.m in Sources */,
+				B0CE0DCA1D387277004BE6DB /* IDAddressPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CE0DA71D387254004BE6DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CE0DB01D387254004BE6DB /* IDAddressPickViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CE0DB21D387254004BE6DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CE0DBB1D387254004BE6DB /* IDAddressPickViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0CE0DAD1D387254004BE6DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0CE0D911D387254004BE6DB /* IDAddressPickView */;
+			targetProxy = B0CE0DAC1D387254004BE6DB /* PBXContainerItemProxy */;
+		};
+		B0CE0DB81D387254004BE6DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0CE0D911D387254004BE6DB /* IDAddressPickView */;
+			targetProxy = B0CE0DB71D387254004BE6DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0CE0D9E1D387254004BE6DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0CE0D9F1D387254004BE6DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0CE0DA31D387254004BE6DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0CE0DA41D387254004BE6DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0CE0DBD1D387254004BE6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0CE0DBE1D387254004BE6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0CE0DC01D387254004BE6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IDAddressPickView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qq1829871867.IDAddressPickView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B0CE0DC11D387254004BE6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IDAddressPickView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qq1829871867.IDAddressPickView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B0CE0DC31D387254004BE6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IDAddressPickViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qq1829871867.IDAddressPickViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDAddressPickView.app/IDAddressPickView";
+			};
+			name = Debug;
+		};
+		B0CE0DC41D387254004BE6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IDAddressPickViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qq1829871867.IDAddressPickViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDAddressPickView.app/IDAddressPickView";
+			};
+			name = Release;
+		};
+		B0CE0DC61D387254004BE6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IDAddressPickViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qq1829871867.IDAddressPickViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IDAddressPickView;
+			};
+			name = Debug;
+		};
+		B0CE0DC71D387254004BE6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IDAddressPickViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qq1829871867.IDAddressPickViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IDAddressPickView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0CE0D8D1D387254004BE6DB /* Build configuration list for PBXProject "IDAddressPickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CE0DBD1D387254004BE6DB /* Debug */,
+				B0CE0DBE1D387254004BE6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0CE0DBF1D387254004BE6DB /* Build configuration list for PBXNativeTarget "IDAddressPickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CE0DC01D387254004BE6DB /* Debug */,
+				B0CE0DC11D387254004BE6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B0CE0DC21D387254004BE6DB /* Build configuration list for PBXNativeTarget "IDAddressPickViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CE0DC31D387254004BE6DB /* Debug */,
+				B0CE0DC41D387254004BE6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B0CE0DC51D387254004BE6DB /* Build configuration list for PBXNativeTarget "IDAddressPickViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CE0DC61D387254004BE6DB /* Debug */,
+				B0CE0DC71D387254004BE6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0CE0D8A1D387254004BE6DB /* Project object */;
+}
