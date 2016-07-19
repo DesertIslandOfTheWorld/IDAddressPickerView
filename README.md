@@ -23,4 +23,4 @@
 	
 ####就是这么简单
 
-- 若要了解其细节，请浏览博客：[世俗孤岛](http://)
+- 若要了解其细节，请浏览博客：[世俗孤岛](http://www.cnblogs.com/theDesertIslandOutOfTheWorld/p/5683025.html)
